@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moviesratingapp-dev-02918-authRole",
+      "UnauthRoleArn": "arn:aws:iam::490686565240:role/amplify-moviesratingapp-dev-02918-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::490686565240:role/amplify-moviesratingapp-dev-02918-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-moviesratingapp-dev-02918-deployment",
+      "UnauthRoleName": "amplify-moviesratingapp-dev-02918-unauthRole",
+      "StackName": "amplify-moviesratingapp-dev-02918",
+      "StackId": "arn:aws:cloudformation:us-east-1:490686565240:stack/amplify-moviesratingapp-dev-02918/d0db7170-72a7-11ec-8621-0ea41aa7401b",
+      "AmplifyAppId": "d2rjroihd2rex7"
+    },
+    "categories": {
+      "auth": {
+        "moviesratingapp40304ad1": {},
+        "moviesratingappfdeec924": {}
+      }
+    }
+  }
+}
