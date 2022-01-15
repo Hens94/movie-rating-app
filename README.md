@@ -151,7 +151,7 @@ AWS API Link: [https://movieratingapp.hens94.com/](https://movieratingapp.hens94
 
 [product-screenshot]: https://i.imgur.com/dWBk7Xr.png
 [product-screenshot2]: https://i.imgur.com/OakDGrx.png
-[usage-rating]: https://i.imgur.com/6ufwh0E.png
-[usage-comment]: https://i.imgur.com/zflqpDF.png
-[usage-movie-admin]: https://i.imgur.com/ZfDkZAz.png
-[usage-rating-admin]: https://i.imgur.com/2pg22Ge.png
+[usage-rating]: https://i.imgur.com/R3QcaUq.png
+[usage-comment]: https://i.imgur.com/8UxgYvq.png
+[usage-movie-admin]: https://i.imgur.com/QymXriE.png
+[usage-rating-admin]: https://i.imgur.com/CAkfXQp.png
