@@ -1,70 +1,157 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Superheores & Villains Search App
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#styled-with">Styled With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
 
-### `npm start`
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This web application allows visitors to rate, comment and add to watchlist movies registered in this application. Additionally, it provides movie management, ratings and easy self-enrollment.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![Product Name Screen Shot][product-screenshot]](https://movieratingapp.hens94.com/)
 
-### `npm test`
+[![Product Name Screen Shot][product-screenshot2]](https://movieratingapp.hens94.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+- [React](https://reactjs.org/)
+- [AWS Amplify](https://aws.amazon.com/es/amplify/)
+- [Redux](https://redux.js.org/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Yup](https://github.com/jquense/yup)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Styled With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Material UI](https://v4.mui.com/)
+- [Styled Components](https://styled-components.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Hosting With
 
-### `npm run eject`
+- [Amazon Web Services](https://aws.amazon.com/) ([https://movieratingapp.hens94.com/](https://movieratingapp.hens94.com/))
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo
 
-### Code Splitting
+   ```sh
+   git clone https://github.com/Hens94/movie-rating-app.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Open project in Visual Studio Code
 
-### Analyzing the Bundle Size
+3. Install all dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```sh
+   npm install
+   ```
 
-### Making a Progressive Web App
+4. Run the application
+   ```sh
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Advanced Configuration
+<!-- USAGE EXAMPLES -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+### Movies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Movies screen shot][product-screenshot]
 
-### `npm run build` fails to minify
+### Movie Detail
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Movie detail screen shot][product-screenshot2]
+
+### Movie Rating
+
+![Movie rating screen shot][usage-rating]
+
+### Movie Comment
+
+![Movie comment screen shot][usage-comment]
+
+### Movies Administration
+
+![Movies administration screen shot][usage-movie-admin]
+
+### Rating Administration
+
+![Rating administration screen shot][usage-rating-admin]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+- [x] Homepage – List of movies sorted by Date or Average Rating
+- [x] Page for views the details of a movie
+- [x] Pages for creating / updating / deleting movies
+- [x] Pages for creating and viewing ratings for specific movies
+- [x] User account creation and authorization. Can create a new user and can only rate a movie when logged in with a valid user
+- [x] Admin pages to manage users, movies, and ratings
+- [x] Users should be able to add movies to a watchlist and access that list
+
+- [x] Deploy to AWS
+- [x] Swagger spec
+- [x] Unique and creative styling
+- [x] Integrate 3rd party data source
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Henry Gadea Mendoza - [LinkedIn](https://www.linkedin.com/in/henry-gadea-mendoza-599264153/) - [Github](https://github.com/Hens94) - henry_gadea@hotmail.com
+
+Project Link: [https://github.com/Hens94/movie-rating-app](https://github.com/Hens94/movie-rating-app)
+
+AWS API Link: [https://movieratingapp.hens94.com/](https://movieratingapp.hens94.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[product-screenshot]: https://i.imgur.com/dWBk7Xr.png
+[product-screenshot2]: https://i.imgur.com/OakDGrx.png
+[usage-rating]: https://i.imgur.com/6ufwh0E.png
+[usage-comment]: https://i.imgur.com/zflqpDF.png
+[usage-movie-admin]: https://i.imgur.com/ZfDkZAz.png
+[usage-rating-admin]: https://i.imgur.com/2pg22Ge.png
