@@ -95,7 +95,7 @@ const useMovies = (orderFilter) => {
   const createMovie = useCallback(
     async (data) => {
       try {
-        const { user: username } = user;
+        const { name: username } = user;
         await postMovieService({ ...data, user_created: username });
         await loadMovieData();
         enqueueSnackbar(type.CREATED_MOVIES_SUCCESS, {
@@ -114,7 +114,7 @@ const useMovies = (orderFilter) => {
   const updateMovie = useCallback(
     async (id, data) => {
       try {
-        const { user: username } = user;
+        const { name: username } = user;
         await updateMovieService(id, { ...data, user_created: username });
         await loadMovieData();
         enqueueSnackbar(type.UPDATED_MOVIES_SUCCESS, {
