@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-# Superheores & Villains Search App
+# Movies Rating App
 
 <!-- TABLE OF CONTENTS -->
 <details>
